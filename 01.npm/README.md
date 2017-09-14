@@ -37,7 +37,7 @@ NPM学习：
 使用npm root -g查看全局安装目录
 
 
-【版本】
+4.【版本】
 
 　　如何安装不同版本的依赖包呢？
 
@@ -51,7 +51,7 @@ npm install express@3.9.0
 
 npm install
 
-【参数】
+5.【参数】
 
 　　在安装依赖包时，有一些参数需要注意。比如使用-g参数时，表示该依赖包为全局安装
 　　参数-S, --save表示安装包信息将加入到dependencies（生产阶段的依赖）
@@ -71,7 +71,7 @@ package.json 文件的 devDependencies字段：
     "express": "^3.9.0"
 }
 
-【镜像安装】
+6.【镜像安装】
 　　使用以下代码后，可以使用命令cnpm来实现镜像安装　　
 $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
@@ -96,14 +96,14 @@ npm uninstall express
 
     
 
-【卸载】
+7.【卸载】
 卸载依赖包或者说删除依赖包，只需要在包的安装目录下执行以下命令即可
 npm uninstall <pkgName>
 如果要卸载全局模块，则需要使用npm root -g命令先找到全局模块的安装目录
 然后再使用npm uninstall <pkgname>命令来卸载模块
 如果要在package.json文件中删除相应代码，与安装时类似，需要使用--save-dev或其他相关参数 npm uninstall <pkgname> --save-dev
 
-NPM配置
+8.NPM配置
 npm的配置工作主要是通过npm config命令，主要包含增、删、改、查几个步骤，下面就以最为常用的proxy配置为例。
 
 设置proxy
@@ -128,7 +128,7 @@ npm config list
 有时候觉得一条配置一条配置地修改有些麻烦，就直接进配置文件修改了
 npm config edit
 
-关于package.json
+9.关于package.json
 
 
 这货在官网似乎没有详细的描述，其实就是包的描述信息啦。假设当我们下载了node应用，这个node应用依赖于A、B、C三个包，如果没有package.json，我们需要人肉安装这个三个包（如果对版本有特定要求就更悲剧了）：
@@ -148,7 +148,7 @@ devDependencies：package的开发依赖模块，即别人要在这个package上
 
 
 
-package版本
+9.package版本
 在package.json里，你经常会在包名后看到类似"~0.1.0"这样的字符串，这就是包的版本啦。下面会列举最常见的版本声明形式，以及版本书写的要求：
 
 常见版本声明形式
