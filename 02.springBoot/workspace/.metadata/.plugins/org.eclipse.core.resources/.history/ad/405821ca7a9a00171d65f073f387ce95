@@ -1,0 +1,5 @@
+package fluently.myzone.controller;
+
+public class AddUser {
+
+}

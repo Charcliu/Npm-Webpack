@@ -1,0 +1,5 @@
+package fluently.myzone.service;
+
+public class AddUserService {
+
+}
