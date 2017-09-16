@@ -1985,3 +1985,20 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2017-09-16 13:10:34,632 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-09-16 13:10:34,634 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-09-16 13:10:34,634 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\JavaWeb\02.springBoot\workspace\myzone\src\test\resources
+2017-09-16 13:13:27,283 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-16 13:13:27,283 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-16 13:13:27,287 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-16 13:13:27,289 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-16 13:13:27,289 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\JavaWeb\02.springBoot\workspace\myzone\src\test\resources
+2017-09-16 13:13:46,247 [Worker-155] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-16 13:13:47,707 [Worker-155] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fluently:myzone:0.0.1-SNAPSHOT @ D:\Code\JavaWeb\02.springBoot\workspace\myzone\pom.xml.
+2017-09-16 13:13:49,023 [Worker-155] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myzone/src/main/java
+2017-09-16 13:13:49,023 [Worker-155] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myzone/src/main/resources
+2017-09-16 13:13:49,024 [Worker-155] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myzone/src/main/resources
+2017-09-16 13:13:49,024 [Worker-155] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myzone/src/test/java
+2017-09-16 13:13:49,271 [Worker-155] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-09-16 13:13:50,402 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-16 13:13:50,403 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-16 13:13:50,422 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-16 13:13:50,431 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-16 13:13:50,431 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\JavaWeb\02.springBoot\workspace\myzone\src\test\resources
