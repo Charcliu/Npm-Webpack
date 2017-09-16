@@ -1,5 +1,7 @@
 package fluently.myzone.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -10,7 +12,7 @@ import fluently.myzone.service.IOperationUserService;
 
 @RestController
 @RequestMapping("/user")
-public class AddUserController {
+public class UserController {
 
 	@Autowired
 	private IOperationUserService iOperationUserService;
@@ -18,5 +20,10 @@ public class AddUserController {
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public void addUser(UserVO user) {
 		iOperationUserService.addUser(user);
+	}
+	
+	@RequestMapping(value = "/queryAllUser", method = RequestMethod.GET)
+	public List<UserVO> queryAllUser() {
+		return iOperationUserService.queryAllUser();
 	}
 }

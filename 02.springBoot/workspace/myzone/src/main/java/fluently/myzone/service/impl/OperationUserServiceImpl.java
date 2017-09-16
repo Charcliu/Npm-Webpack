@@ -1,10 +1,12 @@
 package fluently.myzone.service.impl;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import fluently.myzone.dao.IAddUserDao;
+import fluently.myzone.dao.IOperationUserDao;
 import fluently.myzone.model.UserVO;
 import fluently.myzone.service.IOperationUserService;
 
@@ -12,11 +14,16 @@ import fluently.myzone.service.IOperationUserService;
 public class OperationUserServiceImpl implements IOperationUserService {
 
 	@Resource
-	private IAddUserDao addUserDao;
+	private IOperationUserDao addUserDao;
 	
 	@Override
 	public void addUser(UserVO user) {
 		addUserDao.addUser(user);
+	}
+
+	@Override
+	public List<UserVO> queryAllUser() {
+		return addUserDao.queryAllUser();
 	}
 
 }

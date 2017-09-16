@@ -11,3 +11,5 @@
 1505536749543	Delete element
 1505536751532	Delete element
 1505537707563	Rename type 'AddUserDao'
+1505539242617	Rename type 'AddUserController'
+1505539268267	Rename type 'IAddUserDao'
