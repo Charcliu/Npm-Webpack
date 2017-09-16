@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1505524071868_2" label="SpringBoot" name="SpringBoot">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/myzone" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1505521961638_0" label="Window Working Set" name="Aggregate for window 1505521961638"/>
+<mruList name="SpringBoot"/>
 </workingSetManager>
