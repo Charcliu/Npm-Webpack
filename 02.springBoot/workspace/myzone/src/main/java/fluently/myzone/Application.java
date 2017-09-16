@@ -1,7 +1,13 @@
 package fluently.myzone;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 /*@SpringBootApplication = @Configuration + @EnableAutoConfiguration + @ComponentScan。
 分开解释@Configuration,@EnableAutoConfiguration,@ComponentScan。
@@ -12,8 +18,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 3、@ComponentScan：会自动扫描指定包下的全部标有@Component的类，并注册成bean，当然包括@Component下的子注解@Service,@Repository,@Controller。
 */
 
+//MyBatis 支持
+@MapperScan("fluently.myzone.dao")
 @SpringBootApplication
-public class Application {
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+@PropertySource({"classpath:application.properties"})
+public class Application extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}

@@ -1,0 +1,23 @@
+package fluently.myzone.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import fluently.myzone.model.User;
+import fluently.myzone.service.AddUserService;
+
+@RestController
+@RequestMapping("/user") 
+public class AddUser {
+	
+	@Autowired
+	private AddUserService addUserService;
+	
+	@RequestMapping(value="/add", method = RequestMethod.GET) 
+	public void addUser(User user){
+		addUserService.addUser(user);
+	}
+}

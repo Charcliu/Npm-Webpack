@@ -1,0 +1,9 @@
+package fluently.myzone.dao;
+
+import org.springframework.stereotype.Repository;
+
+import fluently.myzone.model.UserVO;
+
+public interface AddUserDao {
+	public void addUser(UserVO user);
+}

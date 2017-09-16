@@ -1,0 +1,14 @@
+package fluently.myzone.service.impl;
+
+import fluently.myzone.model.UserVO;
+import fluently.myzone.service.IOperationUserService;
+
+public class OperationUserServiceImpl implements IOperationUserService {
+
+	@Override
+	public void addUser(UserVO user) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

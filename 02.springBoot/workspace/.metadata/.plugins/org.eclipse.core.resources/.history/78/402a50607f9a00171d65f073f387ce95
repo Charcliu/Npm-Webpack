@@ -1,0 +1,9 @@
+package fluently.myzone.dao;
+
+import fluently.myzone.model.User;
+
+public interface AddUser {
+
+	public void addUser(User user);
+	
+}

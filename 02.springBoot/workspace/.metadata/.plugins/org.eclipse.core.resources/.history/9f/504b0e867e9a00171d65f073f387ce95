@@ -1,0 +1,5 @@
+package fluently.myzone.model;
+
+public class User {
+
+}

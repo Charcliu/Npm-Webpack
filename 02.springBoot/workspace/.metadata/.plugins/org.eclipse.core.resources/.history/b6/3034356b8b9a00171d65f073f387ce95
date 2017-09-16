@@ -1,0 +1,12 @@
+package fluently.myzone.dao;
+
+import org.mybatis.spring.annotation.MapperScan;
+
+import fluently.myzone.model.User;
+
+@MapperScan
+public interface AddUserDao {
+
+	public void addUser(User user);
+
+}

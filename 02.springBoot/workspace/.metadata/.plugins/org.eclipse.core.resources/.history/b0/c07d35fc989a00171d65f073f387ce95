@@ -1,0 +1,9 @@
+package fluently.myzone.service;
+
+import fluently.myzone.model.UserVO;
+
+public interface IAddUserService {
+	
+	public void addUser(UserVO user);
+	
+}

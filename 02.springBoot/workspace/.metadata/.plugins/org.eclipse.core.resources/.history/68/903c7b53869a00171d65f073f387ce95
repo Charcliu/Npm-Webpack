@@ -1,0 +1,21 @@
+package fluently.myzone.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import fluently.myzone.dao.AddUserDao;
+import fluently.myzone.model.User;
+import fluently.myzone.service.AddUserService;
+
+@Component
+public class AddUserImpl implements AddUserService {
+
+	@Autowired
+	private AddUserDao addUserDao;
+	
+	@Override
+	public void addUser(User user) {
+		//addUserDao.addUser(user);
+	}
+
+}

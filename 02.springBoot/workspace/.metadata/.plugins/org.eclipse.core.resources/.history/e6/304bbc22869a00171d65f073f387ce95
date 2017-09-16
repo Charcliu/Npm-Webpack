@@ -1,0 +1,19 @@
+package fluently.myzone.dao;
+
+import javax.annotation.Resource;
+
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.mybatis.spring.support.SqlSessionDaoSupport;
+
+@Mapper
+public class AddUserDao extends SqlSessionDaoSupport {
+	
+    @Resource
+    public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory){
+        super.setSqlSessionFactory(sqlSessionFactory);
+    } 
+
+	
+	
+}

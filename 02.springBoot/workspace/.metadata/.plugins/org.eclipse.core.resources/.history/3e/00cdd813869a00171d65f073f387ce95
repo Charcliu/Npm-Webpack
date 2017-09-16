@@ -1,0 +1,12 @@
+package fluently.myzone.dao;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import fluently.myzone.model.User;
+
+@Mapper
+public interface AddUserDao {
+
+	public void addUser(User user);
+	
+}
