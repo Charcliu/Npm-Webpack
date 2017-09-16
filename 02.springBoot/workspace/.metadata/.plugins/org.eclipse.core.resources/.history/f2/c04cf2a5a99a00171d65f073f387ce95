@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.fuck {
+	background: url(../img/a.jpg) no-repeat 4px 5px;
+	width: 1000px;
+	height: 1000px;
+}
+</style>
+</head>
+<body>
+	<h1>Main</h1>
+	<div class="fuck"></div>
+</body>
+</html>

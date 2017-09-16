@@ -1,0 +1,7 @@
+package fluently.myzone.dao;
+
+import fluently.myzone.model.UserVO;
+
+public interface IOperationUserDao {
+	public void addUser(UserVO user);
+}

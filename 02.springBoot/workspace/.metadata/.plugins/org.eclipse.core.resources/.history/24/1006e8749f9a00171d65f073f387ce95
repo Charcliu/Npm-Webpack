@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fluently.myzone.dao.IOperationUserDao">
+
+	<insert id="addUser" parameterType="fluently.myzone.model.UserVO">
+		INSERT INTO User (id,name,birthday,address) VALUES
+		(#{id},#{name},#{birthday},#{address});
+	</insert>
+	
+	<select id="addUser" resultType="fluently.myzone.model.UserVO">
+		SELECT id,name,birthday,address FROM User
+	</select>
+	
+</mapper>
