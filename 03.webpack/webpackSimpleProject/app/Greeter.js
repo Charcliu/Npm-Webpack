@@ -1,4 +1,4 @@
 var greet = document.createElement('div');
-greet.textContent = "Hi there and greetings!";
+greet.textContent = "Hi i'am fluently!";
 
 export {greet}
